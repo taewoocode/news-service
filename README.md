@@ -51,11 +51,11 @@ src/
   main/
     java/
       com.example.news_service/
-        config/         # 환경설정 (보안, Swagger, Web 등)
-        news/           # 뉴스 도메인 (client, controller, service, entity 등)
-        user/           # 사용자 도메인 (controller, service, entity 등)
+        config/         # 환경설정 (보안, Swagger, Web)
+        news/           # 뉴스 도메인 (client, controller, service, entity)
+        user/           # 사용자 도메인 (controller, service, entity)
     resources/
-      application.yml   # 환경설정 파일 (DB, 외부 API 키 등)
+      application.yml   # 환경설정 파일 (DB, 외부 API 키)
       static/
       templates/
   test/
@@ -78,10 +78,6 @@ src/
 ./gradlew build
 ./gradlew bootRun
 ```
-
-### 3. API 문서 확인
-
-- Swagger UI: [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
 
 ---
 
